@@ -81,6 +81,10 @@ $ roslaunch my_robot mapping.launch
 source devel/setup.bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
+or
+```bash
+roslaunch my_robot teleop.launch
+```
 Click on this terminal, type keyboard to navigate the robot around. Navigate the robot to scan its surrounding environment. The rtabmap-ros package will save the resulted map with the localized trajectory of the robot in a database file `~/.ros/rtabmap.db`.
 
 ## The RTAB Map Database Files
@@ -93,9 +97,11 @@ $ rtabmap-databaseViewer ~/.ros/rtabmap.db
 * To see 3D Map, Choose Edit -> View 3D Map ...
 
 The files were too large to host on Github, so I uploaded them to Google Drive and the sharing link is here. Example of the database visualized through RTAB-Map's database viewer:
-  <p align="center">
-    <img src="doc/map.png">
-  </p>
+
+![2D-Map](./doc/2d_map.png)
+
+![3D-Map](./doc/3d_map.png)
+
 
 
 ## The Video
