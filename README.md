@@ -96,7 +96,7 @@ $ rtabmap-databaseViewer ~/.ros/rtabmap.db
 * Choose View -> Constraints View and Graph View
 * To see 3D Map, Choose Edit -> View 3D Map ...
 
-The files were too large to host on Github, so I uploaded them to Google Drive and the sharing link is here. Example of the database visualized through RTAB-Map's database viewer:
+The files were too large to host on Github, so I uploaded them to Google Drive and the sharing link is [here](https://drive.google.com/file/d/1V_B1ZRmf8q7onBhussXjg2LzrJOQzBso/view?usp=sharing). Example of the database visualized through RTAB-Map's database viewer:
 
 ![2D-Map](./doc/2d_map.png)
 
